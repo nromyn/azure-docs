@@ -37,7 +37,7 @@ Before you begin, make sure that:
 ### For the StorSimple virtual device
 Before you deploy a virtual device, make sure that:
 
-* You have access to a host system running Hyper-V (2008 R2 or later) that can be used to a provision a device.
+* You have access to a host system running VMWare ESXi (5.5 or later) that can be used to a provision a device.
 * The host system is able to dedicate the following resources to provision your virtual device:
 
   * A minimum of 4 cores.

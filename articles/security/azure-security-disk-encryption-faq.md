@@ -32,7 +32,7 @@ This article provides answers to frequently asked questions (FAQ) about Azure Di
 
 **Q:** How much does Azure Disk Encryption cost?
 
-**A:** There is no charge for encrypting VM disks with Azure Disk Encryption.
+**A:** Azure Disk Encryption has no cost, but it makes use of the Azure Key Vault, which is a paid service. Therefore, there is a charge for the Azure Key Vault itself, as well as a monthly charge for each key when using the HSM sku of Key Vault. [Azure Key Vault Pricing](https://azure.microsoft.com/en-us/pricing/details/key-vault/)
 
 **Q:** Which virtual machine tiers does Azure Disk Encryption support?
 
